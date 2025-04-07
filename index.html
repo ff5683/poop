@@ -22,7 +22,7 @@
     }).addTo(map);
 
     // 3. JSON 파일에서 위치 데이터 불러오기
-    fetch('toilets.json')
+    fetch('csvjson.json')
       .then(response => response.json())
       .then(data => {
         data.forEach(toilet => {
